@@ -1,0 +1,47 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Mar 13 08:29:18 2024
+[*]
+[dumpfile] "/home/fhirner/Documents/dsd2024/examples/04_four_bit_adder/four_bit_adder.vcd"
+[dumpfile_mtime] "Wed Mar 13 08:22:09 2024"
+[dumpfile_size] 3360
+[savefile] "/home/fhirner/Documents/dsd2024/examples/04_four_bit_adder/gtkw.gtkw"
+[timestart] 0
+[size] 1680 988
+[pos] -83 -85
+*-3.870132 15 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] four_bit_adder_tb.
+[sst_width] 233
+[signals_width] 367
+[sst_expanded] 1
+[sst_vpaned_height] 279
+@28
+four_bit_adder_tb.a[3:0]
+four_bit_adder_tb.b[3:0]
+four_bit_adder_tb.clk
+four_bit_adder_tb.sum0[3:0]
+four_bit_adder_tb.sum0[3:0]
+four_bit_adder_tb.sum1[3:0]
+@208
+-
+@28
+four_bit_adder_tb.uut0.a_i[3:0]
+four_bit_adder_tb.uut0.b_i[3:0]
+four_bit_adder_tb.uut0.carry[3:0]
+four_bit_adder_tb.uut0.clk_i
+four_bit_adder_tb.uut0.sum[3:0]
+four_bit_adder_tb.uut0.sum_o[3:0]
+@200
+-
+@22
+four_bit_adder_tb.uut1.a_i[3:0]
+four_bit_adder_tb.uut1.b_i[3:0]
+@28
+four_bit_adder_tb.uut1.clk_i
+@29
+four_bit_adder_tb.uut1.overflow_o
+@22
+four_bit_adder_tb.uut1.sum5bit[4:0]
+four_bit_adder_tb.uut1.sum_o[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
