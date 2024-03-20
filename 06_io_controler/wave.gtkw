@@ -1,0 +1,81 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Mar 20 10:26:01 2024
+[*]
+[dumpfile] "/home/fhirner/Documents/dsd2024/examples/06_io_ctrl_fsm/cipher_core.vcd"
+[dumpfile_mtime] "Wed Mar 20 10:25:44 2024"
+[dumpfile_size] 2683
+[savefile] "/home/fhirner/Documents/dsd2024/examples/06_io_ctrl_fsm/wave.gtkw"
+[timestart] 0
+[size] 1440 836
+[pos] 253 142
+*-6.500898 9 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cipher_core_tb.
+[sst_width] 233
+[signals_width] 352
+[sst_expanded] 1
+[sst_vpaned_height] 102
+@200
+-# TB
+@28
+cipher_core_tb.clk_i
+cipher_core_tb.rst_ni
+@22
+cipher_core_tb.key_i[127:0]
+cipher_core_tb.nonce_i[127:0]
+cipher_core_tb.data_len_i[31:0]
+cipher_core_tb.ad_len_i[31:0]
+cipher_core_tb.indata_i[127:0]
+@28
+cipher_core_tb.indata_valid_i
+cipher_core_tb.indata_ready_o
+@22
+cipher_core_tb.outdata_o[127:0]
+@28
+cipher_core_tb.outdata_valid_o
+cipher_core_tb.outdata_ready_i
+@22
+cipher_core_tb.tag_o[127:0]
+@28
+cipher_core_tb.start_i
+cipher_core_tb.busy_o
+cipher_core_tb.finish_o
+@200
+-# UUT
+@28
+cipher_core_tb.uut.clk_i
+cipher_core_tb.uut.rst_ni
+@22
+cipher_core_tb.uut.key_i[127:0]
+cipher_core_tb.uut.nonce_i[127:0]
+cipher_core_tb.uut.ad_len_i[31:0]
+@28
+cipher_core_tb.uut.indata_valid_i
+cipher_core_tb.uut.indata_ready_o
+@22
+cipher_core_tb.uut.outdata_o[127:0]
+@28
+cipher_core_tb.uut.outdata_valid_o
+cipher_core_tb.uut.outdata_ready_i
+@22
+cipher_core_tb.uut.tag_o[127:0]
+@28
+cipher_core_tb.uut.start_i
+cipher_core_tb.uut.busy_o
+cipher_core_tb.uut.finish_o
+@200
+-## state logic
+@420
+cipher_core_tb.uut.curr_state
+cipher_core_tb.uut.next_state
+@200
+-## data logic
+@22
+cipher_core_tb.uut.key[127:0]
+@23
+cipher_core_tb.uut.counter_init[31:0]
+@22
+cipher_core_tb.uut.counter_rd_ad[31:0]
+cipher_core_tb.uut.counter_rd_ad_max[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,297 @@
+$date
+	Wed Mar 20 11:31:35 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module cipher_core_tb $end
+$var wire 128 ! outdata_o [127:0] $end
+$var wire 1 " outdata_valid_o $end
+$var wire 128 # tag_o [127:0] $end
+$var wire 1 $ indata_ready_o $end
+$var wire 1 % finish_o $end
+$var wire 1 & busy_o $end
+$var reg 32 ' ad_len_i [31:0] $end
+$var reg 1 ( clk_i $end
+$var reg 32 ) data_len_i [31:0] $end
+$var reg 128 * indata_i [127:0] $end
+$var reg 1 + indata_valid_i $end
+$var reg 128 , key_i [127:0] $end
+$var reg 128 - nonce_i [127:0] $end
+$var reg 1 . outdata_ready_i $end
+$var reg 1 / rst_ni $end
+$var reg 1 0 start_i $end
+$scope module uut $end
+$var wire 32 1 ad_len_i [31:0] $end
+$var wire 1 & busy_o $end
+$var wire 1 ( clk_i $end
+$var wire 32 2 data_len_i [31:0] $end
+$var wire 128 3 indata_i [127:0] $end
+$var wire 1 $ indata_ready_o $end
+$var wire 1 + indata_valid_i $end
+$var wire 128 4 key_i [127:0] $end
+$var wire 128 5 nonce_i [127:0] $end
+$var wire 128 6 outdata_o [127:0] $end
+$var wire 1 . outdata_ready_i $end
+$var wire 1 " outdata_valid_o $end
+$var wire 1 / rst_ni $end
+$var wire 1 0 start_i $end
+$var wire 128 7 tag_o [127:0] $end
+$var wire 1 % finish_o $end
+$var reg 32 8 counter_init [31:0] $end
+$var reg 32 9 counter_rd_ad [31:0] $end
+$var reg 32 : counter_rd_ad_max [31:0] $end
+$var reg 128 ; key [127:0] $end
+$var integer 32 < curr_state [31:0] $end
+$var integer 32 = next_state [31:0] $end
+$scope begin counterDelayInitReg $end
+$upscope $end
+$scope begin counterRdAdMaxReg $end
+$upscope $end
+$scope begin counterRdAdReg $end
+$upscope $end
+$scope begin currStateReg $end
+$upscope $end
+$scope begin keyReg $end
+$upscope $end
+$scope begin nextStateLogic $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 =
+b0 <
+bx ;
+bx :
+bx 9
+bx 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+00
+0/
+0.
+b0 -
+b0 ,
+0+
+b0 *
+b0 )
+0(
+b0 '
+0&
+0%
+0$
+b0 #
+0"
+b0 !
+$end
+#5
+b0 :
+b0 8
+b0 ;
+1(
+#10
+0(
+#15
+1(
+#20
+0(
+1/
+#25
+1(
+#30
+b1 =
+0(
+10
+b10 '
+b10 1
+b10 )
+b10 2
+b11111110110111001011101010011000011101100101010000110010000100001111111011011100101110101001100001110110010101000011001000010000 -
+b11111110110111001011101010011000011101100101010000110010000100001111111011011100101110101001100001110110010101000011001000010000 5
+b1001000110100010101100111100010011010101111001101111011110000000100100011010001010110011110001001101010111100110111101111 ,
+b1001000110100010101100111100010011010101111001101111011110000000100100011010001010110011110001001101010111100110111101111 4
+#35
+1&
+b1001000110100010101100111100010011010101111001101111011110000000100100011010001010110011110001001101010111100110111101111 ;
+b1 <
+1(
+#40
+0(
+00
+#45
+b0 9
+b10 :
+b1 8
+1(
+#50
+0(
+#55
+b10 8
+1(
+#60
+0(
+#65
+b10 =
+b11 8
+1(
+#70
+0(
+#75
+1$
+b100 8
+b10 <
+1(
+#80
+0(
+#85
+1(
+#90
+0(
+#95
+1(
+#100
+0(
+#105
+1(
+#110
+0(
+#115
+1(
+#120
+0(
+#125
+1(
+#130
+0(
+#135
+1(
+#140
+0(
+#145
+1(
+#150
+b11 =
+0(
+b10101101000000001010110100000000101011010000000010101101000000001010110100000000101011010000000010101101000000001010110100000000 *
+b10101101000000001010110100000000101011010000000010101101000000001010110100000000101011010000000010101101000000001010110100000000 3
+1+
+#155
+b10 =
+0$
+b1 9
+b11 <
+1(
+#160
+b10 =
+0(
+b0 *
+b0 3
+0+
+#165
+1$
+b10 <
+1(
+#170
+0(
+#175
+1(
+#180
+0(
+#185
+0$
+b10 9
+b11 <
+b100 =
+1(
+b10101101000000011010110100000001101011010000000110101101000000011010110100000001101011010000000110101101000000011010110100000001 *
+b10101101000000011010110100000001101011010000000110101101000000011010110100000001101011010000000110101101000000011010110100000001 3
+1+
+#190
+0(
+#195
+1$
+b100 <
+b101 =
+1(
+b0 *
+b0 3
+0+
+#200
+0(
+#205
+b110 =
+0$
+b101 <
+1(
+#210
+0(
+#215
+b111 =
+b110 <
+1(
+#220
+0(
+#225
+b1000 =
+b111 <
+1(
+#230
+0(
+#235
+b0 =
+0&
+1%
+b1000 <
+1(
+#240
+0(
+#245
+0%
+b0 <
+1(
+#250
+0(
+#255
+1(
+#260
+0(
+#265
+1(
+#270
+0(
+#275
+1(
+#280
+0(
+#285
+1(
+#290
+0(
+#295
+1(
+#300
+0(
+#305
+1(
+#310
+0(
+#315
+1(
+#320
+0(
+#325
+1(
+#330
+0(
+#335
+1(
