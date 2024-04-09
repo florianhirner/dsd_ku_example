@@ -1,0 +1,89 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue Apr  9 12:14:23 2024
+[*]
+[dumpfile] "/home/fhirner/Documents/dsd2024/dsd_ku_example/08_multiplication_iterative/multipler.vcd"
+[dumpfile_mtime] "Tue Apr  9 12:10:07 2024"
+[dumpfile_size] 5744
+[savefile] "/home/fhirner/Documents/dsd2024/dsd_ku_example/08_multiplication_iterative/wave_config.gtkw"
+[timestart] 0
+[size] 1920 1043
+[pos] 1882 -63
+*-6.000000 120 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] multipler_tb.
+[treeopen] multipler_tb.uut.
+[sst_width] 233
+[signals_width] 351
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@200
+-################
+-TB
+-################
+@28
+multipler_tb.clk_i
+multipler_tb.rst_ni
+multipler_tb.start_i
+multipler_tb.busy_o
+multipler_tb.finish_o
+@22
+multipler_tb.indata_a_i[63:0]
+multipler_tb.indata_b_i[63:0]
+multipler_tb.outdata_r_o[127:0]
+multipler_tb.reference_o[127:0]
+@200
+-################
+-UUT
+-################
+@28
+multipler_tb.uut.clk_i
+multipler_tb.uut.rst_ni
+multipler_tb.uut.start_i
+multipler_tb.uut.busy_o
+multipler_tb.uut.finish_o
+@22
+multipler_tb.uut.indata_a_i[63:0]
+multipler_tb.uut.indata_b_i[63:0]
+multipler_tb.uut.outdata_r_o[127:0]
+@200
+-----------------------
+@420
+multipler_tb.uut.curr_state
+multipler_tb.uut.next_state
+@200
+-----------------------
+@28
+multipler_tb.uut.ctrl_update_a_counter
+multipler_tb.uut.ctrl_update_b_counter
+multipler_tb.uut.ctrl_update_operands
+multipler_tb.uut.ctrl_update_r_counter
+multipler_tb.uut.ctrl_update_result
+@200
+-----------------------
+@22
+multipler_tb.uut.operand_a[63:0]
+multipler_tb.uut.operand_b[63:0]
+@23
+multipler_tb.uut.result[127:0]
+@200
+-----------------------
+@22
+multipler_tb.uut.a_counter[15:0]
+multipler_tb.uut.b_counter[15:0]
+multipler_tb.uut.r_counter[15:0]
+@200
+-----------------------
+@22
+multipler_tb.uut.mul16_indata_a_i[15:0]
+multipler_tb.uut.mul16_indata_b_i[15:0]
+multipler_tb.uut.mul16_outdata_r_o[31:0]
+@200
+-################
+-MUL16
+-################
+@22
+multipler_tb.uut.multipler_16x16_i.indata_a_i[15:0]
+multipler_tb.uut.multipler_16x16_i.indata_b_i[15:0]
+multipler_tb.uut.multipler_16x16_i.outdata_r_o[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
